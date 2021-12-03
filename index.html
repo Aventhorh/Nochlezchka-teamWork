@@ -11,55 +11,10 @@
 
 <body class="page">
 
-    <form autocomplete="off" name="donate" class="form-donate">
-        <fieldset class="form-donate__container">
-            <div class="form-donate__swipe"></div>
-            <div class="form-donate__section-title">
-                <h2 class="form-donate__title">пожертвовать</h2>
-                <button class="form-donate__close" type="button"></button>
-            </div>
-            <h3 class="form-donate__subtitle">сумма</h3>
-            <div class="form-donate__section-sum">
-                <button class="button button_primary" type="button">100 &#8381;</button>
-                <button class="button" type="button">300 &#8381;</button>
-                <button class="button" type="button">500 &#8381;</button>
-                <button class="button" type="button">1000 &#8381;</button>
-                <button class="button" type="button">3000 &#8381;</button>
-                <button class="button" type="button">другая сумма</button>
-            </div>
-
-            <h3 class="form-donate__subtitle">email</h3>
-
-            <input type="email" class="form-donate__email" id="title" name="title"
-                placeholder="укажите почту для отправки чека">
-
-            <h3 class="form-donate__subtitle">способ оплаты</h3>
-            <label for="" class="form-donate__section-radio">
-                <input type="radio" name="radioCheck" class="" checked>
-                <span class="form-donate__text">банковской картой</span>
-            </label>
-
-            <label for="" class="form-donate__section-radio">
-                <input type="radio" name="radioCheck" class="">
-                <span class="form-donate__text">PayPal</span>
-            </label>
-
-            <p>Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a class="form-donate__link" href="#">оферты,
-                    политики</a> в отношении обработки и защиты
-                персональных данных и даёте <a class="form-donate__link" href="#">согласие</a> на их обработку</p>
-            <!-- <div class="form-donate__section-donate"> -->
-                <button class="button button_primary" type="button">перейти к оплате</button>
-            <!-- </div> -->
-        </fieldset>
-    </form>
-
     <form autocomplete="off" name="scroll" class="form-scroll menu_off">
         <fieldset class="form-scroll__container">
             <p class="form-scroll__text">ваш город:</p>
-            <div class="form-scroll__section-sity">
-                <p class="form-scroll__this-sity">Санкт-Петербург</p>
-                <button class="form-scroll__str" type="button"></button>
-            </div>
+            <p class="form-scroll__this-sity">Санкт-Петербург</p>
             <p class="form-scroll__navigation form-scroll__text">навигация</p>
             <ul class="form-scroll__menu">
                 <li class="form-scroll__menu-item">
@@ -76,19 +31,7 @@
                 <img class="form-scroll__img" src="./img/header/nochkejka.svg" alt="Ночлежка">
                 <p class="form-scroll__text">благотварительная организация</p>
             </div>
-            <button class="form-scroll__button button button_primary" type="button">пожертвовать</button>
-        </fieldset>
-    </form>
-
-    <form autocomplete="off" name="scroll" class="form-scroll form-scroll_sity menu_off">
-        <fieldset class="form-scroll__container">
-            <button class="form-scroll__back" type="button">&#8592; назад</button>
-            <p class="form-scroll__text">ваш город:</p>
-            <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Москва</p>
-            <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Санкт-Петербург</p>
-            <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Сочи</p>
-            <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Калуга</p>
-            <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Екатеринбург</p>
+            <button class="form-scroll__button button button_primary">пожертвовать</button>
         </fieldset>
     </form>
 
@@ -98,7 +41,7 @@
                 <img class="header__logo" src="img/header/logo__header.svg" alt="Логотип">
             </a>
             <div class="header__wrapper">
-                <button class="header__location header__location-button" type="button">Санкт-Петербург</button>
+                <p class="header__location">Санкт-Петербург</p>
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -114,8 +57,8 @@
                 </nav>
                 <p class="header__event">хочу пойти</p>
             </div>
-            <button class="header__burger menu_off" type="button"><img src="./img/header/icon_burger.svg" alt="Развернуть"></button>
-            <button class="header__button button button_primary" type="button">поддержать</button>
+            <button class="header__burger menu_off"><img src="./img/header/icon_burger.svg" alt=""></button>
+            <button class="header__button button button_primary">поддержать</button>
         </div>
     </header>
 
@@ -123,13 +66,12 @@
 
         <section class="promo">
             <img class="promo__logo" src="img/header/promo__logo.svg" alt="Главный логотип">
-            <!-- якорная ссылка -->
             <p class="promo__follow-up">узнать больше</p>
-            <button class="promo__button" type="button"></button>
+            <button class="promo__button"></button>
         </section>
 
         <section class="about">
-            <h2 class="about__title">просто приятно помогать</h2>
+            <h1 class="about__title">просто приятно помогать</h1>
             <div class="about__wrapper">
                 <p class="about__text">
                     Пейте кофе в любимых заведениях, посещайте интересные мероприятия, устраивайте домашние посиделки с
@@ -138,8 +80,7 @@
                 <p class="about__text">
                     Целую неделю 26 апреля — 2 мая вся выручка будет перечислена в пользу бездомных.
                 </p>
-                <!-- ссылка -->
-                <button class="button about__button" type="button">узнать подробнее</button>
+                <button class="button about__button ">узнать подробнее</button>
             </div>
         </section>
 
